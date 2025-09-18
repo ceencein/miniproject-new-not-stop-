@@ -22,7 +22,7 @@ int current_song = 0;
 int buttonState_play = HIGH;
 int lastButtonState_play = HIGH;
 unsigned long lastDebounceTime = 0;
-unsigned long debounceDelay = 70;
+unsigned long debounceDelay = 50;
 
 void setup() {
   pinMode(SpeakerPin, OUTPUT);
